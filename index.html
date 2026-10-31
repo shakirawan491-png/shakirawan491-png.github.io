@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Official professional portfolio of Shakir Awan — Agriculture graduate in Plant Pathology with laboratory, research support, landscaping and pest management interests.">
-  <meta name="keywords" content="Shakir Awan, Plant Pathology, Agriculture, Laboratory Assistant, Research Assistant, Landscaping, Pest Management">
+  <meta name="description" content="Professional portfolio of Shakir Awan — BS (Hons.) Agriculture (Plant Pathology) graduate with skills in entomology, plant disease management, integrated pest management and landscape horticulture.">
+  <meta name="keywords" content="Shakir Awan, Plant Pathology, Entomology, Integrated Pest Management, Landscape Horticulture, Turf, Palms, Irrigation, Laboratory, Islamabad">
   <meta name="author" content="Shakir Awan">
-  <meta property="og:title" content="Shakir Awan | Agriculture & Plant Pathology">
-  <meta property="og:description" content="Professional portfolio, education, experience and skills.">
+  <meta property="og:title" content="Shakir Awan | Agriculture, Plant Pathology & Landscape">
+  <meta property="og:description" content="Plant Pathology graduate with entomology, IPM, landscape and laboratory skills.">
   <meta property="og:type" content="website">
-  <title>Shakir Awan | Agriculture & Plant Pathology</title>
+  <title>Shakir Awan | Agriculture, Plant Pathology & Landscape</title>
   <style>
     :root{--navy:#102b3f;--green:#247a58;--mint:#eaf4ef;--ink:#1d2b34;--muted:#60717b;--paper:#f7faf8;--white:#fff}
     *{box-sizing:border-box} html{scroll-behavior:smooth}
@@ -32,23 +32,28 @@
     .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
     .btn{display:inline-block;padding:12px 19px;border-radius:8px;font-weight:700;font-size:14px}
     .btn-light{background:white;color:var(--navy)}.btn-outline{border:1px solid #ffffff8a;color:white}
+    .btn-green{background:#25a36b;color:white}
     section{padding:68px 0}.section-tag{color:var(--green);font-size:12px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
     h2{color:var(--navy);font-size:32px;margin:8px 0 24px;line-height:1.2}
     .intro{max-width:780px;color:#53656e;font-size:17px}
     .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .cards.two{grid-template-columns:repeat(2,1fr)}
     .card{background:white;border:1px solid #e4ece7;border-radius:14px;padding:23px;box-shadow:0 8px 24px #102b3f08}
-    .card h3{margin:0 0 8px;color:var(--navy);font-size:18px}.card p{margin:0;color:var(--muted);font-size:14px}
+    .card h3{margin:0 0 10px;color:var(--navy);font-size:18px}.card p{margin:0;color:var(--muted);font-size:14px}
+    .card ul{margin:0;padding-left:18px;color:var(--muted);font-size:14px}.card li{margin:4px 0}
     .split{display:grid;grid-template-columns:1fr 1fr;gap:38px}
     .timeline{border-left:2px solid #c8dfd2;padding-left:22px}
     .item{position:relative;margin:0 0 25px}.item:before{content:"";position:absolute;left:-29px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--green);border:3px solid var(--mint)}
     .item h3{margin:0;color:var(--navy);font-size:17px}.item .meta{font-size:13px;color:var(--green);font-weight:700}.item p{margin:5px 0;color:var(--muted);font-size:14px}
     .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
     .pill{background:var(--mint);color:#205a43;border:1px solid #d4e9dc;padding:8px 13px;border-radius:30px;font-size:13px;font-weight:700}
+    .alt{background:#edf5f0}
     .contact{background:var(--navy);color:white}.contact h2{color:white}.contact p{color:#d4e1e5}
     .contact-box{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+    .contact-lines p{margin:4px 0}
     footer{background:#0b2030;color:#aebfc7;padding:22px 0;font-size:13px}
     .small{font-size:12px;color:#82949d}
-    @media(max-width:760px){.hero-grid,.split{grid-template-columns:1fr}.hero{padding:58px 0}.cards{grid-template-columns:1fr}.links{gap:12px;font-size:12px}nav{align-items:flex-start;padding:15px 0;flex-direction:column}section{padding:52px 0}}
+    @media(max-width:760px){.hero-grid,.split{grid-template-columns:1fr}.hero{padding:58px 0}.cards,.cards.two{grid-template-columns:1fr}.links{gap:12px;font-size:12px}nav{align-items:flex-start;padding:15px 0;flex-direction:column}section{padding:52px 0}}
   </style>
 </head>
 <body>
@@ -56,7 +61,7 @@
   <nav class="wrap">
     <a class="brand" href="#home">SHAKIR AWAN</a>
     <div class="links">
-      <a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#training">Training</a><a href="#contact">Contact</a>
     </div>
   </nav>
 </header>
@@ -67,7 +72,7 @@
       <div>
         <div class="eyebrow">Professional Portfolio</div>
         <h1>SHAKIR<br>AWAN</h1>
-        <p>Agriculture Graduate | Plant Pathology | Laboratory & Research Support</p>
+        <p>Agriculture Graduate | Plant Pathology | Entomology | Landscape & Horticulture</p>
         <p class="small">Islamabad, Pakistan</p>
         <div class="actions">
           <a class="btn btn-light" href="#about">Explore Profile</a>
@@ -77,7 +82,7 @@
       <div class="hero-card">
         <div class="initials">SA</div>
         <strong>Agriculture & Plant Sciences</strong>
-        <span>Focused on laboratory work, research support, plant health and practical field operations.</span>
+        <span>Plant disease management, integrated pest management, landscape horticulture and laboratory work.</span>
       </div>
     </div>
   </section>
@@ -86,37 +91,117 @@
     <div class="wrap">
       <div class="section-tag">About me</div>
       <h2>Professional Profile</h2>
-      <p class="intro">I am an Agriculture graduate with a specialization in Plant Pathology and practical experience in laboratory support and research-related activities. My interests include plant health, disease management, laboratory techniques, landscaping and integrated pest management. I value accuracy, responsibility, teamwork and continuous professional development.</p>
+      <p class="intro">BS (Hons.) Agriculture (Plant Pathology) graduate with knowledge of entomology, plant disease management, integrated pest management and landscape horticulture, including turf, palms, ornamental plants and irrigation. Committed, detail-oriented and cooperative, with strong fieldwork and laboratory skills.</p>
       <div class="cards">
-        <article class="card"><h3>Plant Pathology</h3><p>Academic background in plant diseases, plant health and basic mycology.</p></article>
-        <article class="card"><h3>Laboratory Support</h3><p>Experience supporting laboratory operations and research activities in an academic environment.</p></article>
-        <article class="card"><h3>Field & Landscape</h3><p>Interest and practical knowledge across landscaping, plant maintenance and pest management.</p></article>
+        <article class="card"><h3>Plant Pathology</h3><p>Identification and management of fungal, bacterial, viral and abiotic plant problems, with fungal and bacterial isolation, culturing and microscopic identification.</p></article>
+        <article class="card"><h3>Entomology & IPM</h3><p>Pest identification, field scouting, trapping and monitoring, and integrated control using cultural, mechanical, biological and chemical methods.</p></article>
+        <article class="card"><h3>Landscape & Horticulture</h3><p>Turf, palms, trees, shrubs, flower beds and indoor plants, with irrigation, nutrition, nursery work and crew supervision.</p></article>
       </div>
     </div>
   </section>
 
-  <section id="education" style="background:#edf5f0">
+  <section id="expertise" class="alt">
+    <div class="wrap">
+      <div class="section-tag">Expertise</div>
+      <h2>Entomology & Plant Protection</h2>
+      <div class="cards two">
+        <article class="card"><h3>Insect pests</h3><ul>
+          <li><b>Sucking:</b> aphids, whiteflies, thrips, jassids, psyllids, mealybugs, scale insects, spider mites, dubas bug</li>
+          <li><b>Chewing:</b> armyworm, cutworm, leaf miners, caterpillars, grasshoppers, leaf beetles</li>
+          <li><b>Palm:</b> red palm weevil, rhinoceros beetle, longhorn stem borer, date palm mites</li>
+          <li><b>Soil & turf:</b> white grubs, mole crickets, termites, ants, nematodes</li>
+        </ul></article>
+        <article class="card"><h3>Plant diseases</h3><ul>
+          <li><b>Fungal:</b> powdery and downy mildew, rust, anthracnose, blight, damping-off, root and crown rot, leaf spots</li>
+          <li><b>Turf:</b> dollar spot, brown patch, Pythium blight, rust</li>
+          <li><b>Palm:</b> black scorch, Fusarium wilt, Graphiola leaf spot, bud rot, heart rot</li>
+          <li><b>Bacterial & viral:</b> bacterial blight, soft rot, crown gall, mosaic viruses</li>
+          <li><b>Abiotic:</b> nutrient deficiency, chlorosis, salinity, sunburn, water stress</li>
+        </ul></article>
+        <article class="card"><h3>Control & monitoring</h3><ul>
+          <li>Pest and disease identification from symptoms, damage patterns and life cycles</li>
+          <li>Field scouting, sampling and economic threshold assessment</li>
+          <li>Pheromone, sticky, light and pitfall traps</li>
+          <li>Biological control: ladybird beetles, lacewings, parasitoid wasps, predatory mites, <i>Beauveria bassiana</i>, neem</li>
+        </ul></article>
+        <article class="card"><h3>Safe pesticide use</h3><ul>
+          <li>Insecticide, fungicide, acaricide and herbicide use</li>
+          <li>Sprayer calibration and resistance management</li>
+          <li>PPE, re-entry and pre-harvest intervals, record keeping</li>
+          <li>Sample collection, pest and disease reports, treatment recommendations</li>
+        </ul></article>
+      </div>
+
+      <div class="section-tag" style="margin-top:48px">Expertise</div>
+      <h2>Landscape & Horticulture</h2>
+      <div class="cards two">
+        <article class="card"><h3>Turf</h3><ul>
+          <li>Bermuda, Paspalum, Zoysia, ryegrass overseeding</li>
+          <li>Sodding, sprigging, seeding, levelling and rolling</li>
+          <li>Mowing, edging, dethatching, aeration, topdressing, weed control, fertilization</li>
+        </ul></article>
+        <article class="card"><h3>Palms, trees & shrubs</h3><ul>
+          <li>Date palm, Canary Island date palm, Washingtonia, royal, queen, foxtail and areca palms</li>
+          <li>Planting, transplanting, frond cleaning, offshoot removal, NPK and micronutrient programs</li>
+          <li>Ficus, bougainvillea, oleander, hibiscus, ixora, duranta, jasmine, lantana, agave, aloe</li>
+          <li>Staking, crown thinning, canopy lifting, hedge shaping and topiary</li>
+        </ul></article>
+        <article class="card"><h3>Flowers & indoor plants</h3><ul>
+          <li><b>Winter:</b> petunia, pansy, viola, snapdragon, marigold, salvia, dianthus, calendula</li>
+          <li><b>Summer:</b> portulaca, vinca, zinnia, celosia, gazania</li>
+          <li>Bed preparation, planting, replacement and seasonal rotation</li>
+          <li>Snake plant, pothos, ZZ plant, rubber plant, peace lily, aglaonema, monstera</li>
+        </ul></article>
+        <article class="card"><h3>Soil, irrigation & nursery</h3><ul>
+          <li>Soil preparation, compost and manure, soil testing (pH, EC), drainage, mulching</li>
+          <li>Drip, sprinkler and bubbler irrigation, scheduling, leak detection and repair</li>
+          <li>NPK, slow-release, organic and foliar fertilizers, iron, magnesium and zinc</li>
+          <li>Propagation by seed, cuttings, division, layering, grafting and offshoots; potting and hardening off</li>
+        </ul></article>
+        <article class="card"><h3>Tools & supervision</h3><ul>
+          <li>Hand tools: secateurs, loppers, pruning saw, hedge shears, trowel, spade, rake, hoe</li>
+          <li>Machines: lawn mower, brush cutter, hedge trimmer, edger, blower, chainsaw, sprayer, spreader, aerator</li>
+          <li>Layout and planting plans, plant spacing, site marking</li>
+          <li>Maintenance scheduling, labor supervision, equipment care, site safety, inventory</li>
+        </ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
     <div class="wrap split">
       <div>
         <div class="section-tag">Education</div>
         <h2>Academic Background</h2>
         <div class="timeline">
           <div class="item">
-            <h3>BS Agriculture — Plant Pathology</h3>
-            <div class="meta">Pir Mehr Ali Shah Arid Agriculture University, Rawalpindi</div>
+            <h3>BS (Hons.) Agriculture — Plant Pathology</h3>
+            <div class="meta">2016 – 2020 | Arid Agriculture University, Rawalpindi</div>
             <p>Bachelor's degree with an academic focus on Plant Pathology.</p>
+          </div>
+          <div class="item">
+            <h3>HSSC</h3>
+            <div class="meta">2015 – 2016 | Asif Saleem Higher Secondary School, Ali Pur</div>
+          </div>
+          <div class="item">
+            <h3>SSC</h3>
+            <div class="meta">2013 – 2014 | Muslim Scholar High School, Ali Pur</div>
           </div>
         </div>
       </div>
       <div>
-        <div class="section-tag">Professional focus</div>
-        <h2>Areas of Interest</h2>
-        <p class="intro">Plant disease diagnosis and management, mycology, agricultural research, laboratory operations, landscaping maintenance, irrigation and pest control.</p>
+        <div class="section-tag">Achievements</div>
+        <h2>Recognition</h2>
+        <div class="timeline">
+          <div class="item"><h3>Position holder at matriculation level</h3></div>
+          <div class="item"><h3>Class prefect in matriculation</h3></div>
+          <div class="item"><h3>Partial scholarship at university level</h3><p>Government College University, Rawalpindi.</p></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="experience">
+  <section id="experience" class="alt">
     <div class="wrap">
       <div class="section-tag">Experience</div>
       <h2>Work & Research Experience</h2>
@@ -127,9 +212,9 @@
           <p>Laboratory and research support in an academic setting, including assistance with routine operations and project-related activities.</p>
         </div>
         <div class="item">
-          <h3>Internship — Agricultural Research</h3>
-          <div class="meta">Pakistan Agricultural Research Council / National Agricultural Research Centre</div>
-          <p>Research-oriented exposure through agricultural research internships.</p>
+          <h3>Field Surveyor (Internship)</h3>
+          <div class="meta">Pakistan Agricultural Research Council (PARC), Islamabad</div>
+          <p>Field survey work and research-oriented exposure in agricultural research.</p>
         </div>
         <div class="item">
           <h3>Administration & Office Management</h3>
@@ -140,35 +225,85 @@
     </div>
   </section>
 
-  <section id="skills" style="background:#edf5f0">
+  <section id="training">
     <div class="wrap">
-      <div class="section-tag">Capabilities</div>
-      <h2>Skills & Knowledge</h2>
-      <div class="skills">
-        <span class="pill">Plant Pathology</span><span class="pill">Basic Mycology Techniques</span>
-        <span class="pill">Laboratory Support</span><span class="pill">Research Assistance</span>
-        <span class="pill">Plant Health</span><span class="pill">Pest Management</span>
-        <span class="pill">Landscaping</span><span class="pill">Office Administration</span>
-        <span class="pill">Teamwork</span><span class="pill">Time Management</span>
+      <div class="section-tag">Training</div>
+      <h2>Courses, Conferences & Certificates</h2>
+      <div class="timeline">
+        <div class="item">
+          <h3>One-Day Training on Atomic/Nuclear Energy</h3>
+          <div class="meta">18 June 2026 | National Centre for Physics (NCP), Islamabad</div>
+        </div>
+        <div class="item">
+          <h3>Capacity Building Training of Lab Attendants Regarding Biosecurity Protocols in Research Institutes</h3>
+          <div class="meta">8 July 2024 | COMSATS University Islamabad & Health Security Partners, USA</div>
+        </div>
+        <div class="item">
+          <h3>Introduction to Nutrition</h3>
+          <div class="meta">UNICEF (AGORA)</div>
+        </div>
+        <div class="item">
+          <h3>E-Codes and Critical Halal Aspects in Food Industries</h3>
+          <div class="meta">One-day online course</div>
+        </div>
+        <div class="item">
+          <h3>International Conference: Food & Nutritional Security and Climate Change</h3>
+          <div class="meta">7–8 March 2017 | Government College University, Faisalabad | Attended</div>
+        </div>
+        <div class="item">
+          <h3>International Conference: Global Trends in Safe & Healthy Food, and Lyallpur Food & Poultry Products Festival</h3>
+          <div class="meta">7–8 March 2016 | Institute of Home & Food Sciences, Government University, Rawalpindi | Attended and organizer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="alt">
+    <div class="wrap split">
+      <div>
+        <div class="section-tag">Capabilities</div>
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="pill">Plant Pathology</span><span class="pill">Entomology</span>
+          <span class="pill">Integrated Pest Management</span><span class="pill">Fungal & Bacterial Isolation</span>
+          <span class="pill">Laboratory Instruments</span><span class="pill">Plant & Seed Quantification</span>
+          <span class="pill">Landscaping</span><span class="pill">Turf & Palm Care</span>
+          <span class="pill">Irrigation</span><span class="pill">Team Supervision</span>
+          <span class="pill">Communication</span><span class="pill">Attention to Detail</span>
+          <span class="pill">Teamwork</span><span class="pill">Office Administration</span>
+        </div>
+      </div>
+      <div>
+        <div class="section-tag">Languages</div>
+        <h2>Languages & Interests</h2>
+        <div class="skills">
+          <span class="pill">English — Fluent</span><span class="pill">Urdu — Fluent</span>
+        </div>
+        <p class="intro" style="margin-top:22px">Interests: cricket, reading books and cooking. Qualities: appreciative, committed, competent, cooperative and environmentally friendly.</p>
       </div>
     </div>
   </section>
 
   <section class="contact" id="contact">
     <div class="wrap contact-box">
-      <div>
+      <div class="contact-lines">
         <div class="section-tag" style="color:#a9dfc2">Get in touch</div>
         <h2>Let's Connect</h2>
         <p>For professional opportunities, research collaboration or relevant enquiries, please get in touch.</p>
-        <p class="small">Email: shakirawan491@gmail.com</p>
+        <p>Email: <a href="mailto:shakirawan491@gmail.com">shakirawan491@gmail.com</a></p>
+        <p>Phone / WhatsApp: <a href="tel:+923019512988">+92 301 9512988</a></p>
+        <p class="small">Islamabad, Pakistan</p>
       </div>
-      <a class="btn btn-light" href="mailto:shakirawan491@gmail.com?subject=Professional%20Enquiry">Email Shakir</a>
+      <div class="actions" style="margin-top:0">
+        <a class="btn btn-light" href="mailto:shakirawan491@gmail.com?subject=Professional%20Enquiry">Email Shakir</a>
+        <a class="btn btn-green" href="https://wa.me/923019512988" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
     </div>
   </section>
 </main>
 
 <footer>
-  <div class="wrap">© <span id="year">2026</span> Shakir Awan. All rights reserved. <span class="small">Professional portfolio website.</span></div>
+  <div class="wrap">© 2026 Shakir Awan. All rights reserved. <span class="small">Professional portfolio website.</span></div>
 </footer>
 </body>
 </html>
